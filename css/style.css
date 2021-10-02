@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-img{
+  /* position: absolute; */
+  width: 100%;
+}
+
+.navbar {
+  background-color: #3EBEFF;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar a{
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  
+  margin-left: 3.5rem;
+}
+
+.nav-link{
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact{
+  font-family: 'Fraunces', serif;
+  color: #222833;
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+}
+
+.contact:hover{
+  background-color: #6FCFFF;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Fraunces', serif;
+}
+
+h2{
+  font-family: 'Fraunces', serif;
+  font-size: 2.9rem;
+}
+
+p{
+  line-height: 1.5rem;
+}
+
+a{
+  color: #222833;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  text-decoration: none;
+  padding: 5px;
+  /* display: block; */
+}
+
+/* Section Header */
+
+.title-header{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  color: white;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  
+}
+
+.img-header{
+  width: 100%;
+}
+
+.icon-header{
+  margin-top: 100px;
+  font-size: 10rem;
+}
+/* Section Header */
+
+/* Section Egg */
+.egg-img{
+  float: right;
+  margin-left: 100px;
+  width: 675px;
+  position: relative;
+  bottom: 3px;
+}
+
+.egg-text{
+  padding: 150px 100px;
+}
+
+.egg-text p{
+  margin: 15px auto;
+}
+
+.egg-text a:hover{
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(254,208,0,1) 0%, rgba(254,208,0,1) 18%, rgba(255,255,255,1) 50%);
+}
+/* Section Egg */
+
+/* Section Cup */
+.cup-img{
+  float: left;
+  margin-right: 100px;
+  width: 675px;
+  position: relative;
+  bottom: 3px;
+}
+
+.cup-text{
+  padding: 150px 100px;
+}
+
+.cup-text p{
+  margin: 15px auto;
+}
+
+.cup-text a:hover{
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(255,113,99,1) 0%, rgba(255,113,99,1) 18%, rgba(255,255,255,1) 50%);
+}
+/* Section Cup */
+
+/* Section Ceri dan Orange */
+.area {
+  width: 50%;
+  float: left;
+  position: relative;
+  bottom: 3px;
+}
+
+.area h2{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.area p{
+  width: 50%;
+  position: absolute;
+  text-align: center;
+  margin-top: 430px;
+  padding-left: 25%;
+  font-weight: bold;
+}
+
+.ceri-text{
+  color: #26564E;
+}
+
+.orange-text{
+  color: #18536B;
+}
+
+.ceri{
+  width: 674.5px;
+}
+
+.orange{
+  width: 674.5px;
+}
+/* Section Ceri dan Orange */
+
+/* Section Testimonial */
+.testimoni{
+  margin-top: 800px;
+  text-align: center;
+}
+
+.testimoni h2{
+  color: #A5A4A3;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.orang{
+  display: inline-block;
+  padding: 70px 60px 100px;
+}
+
+.foto{
+  border-radius: 100%;
+}
+
+.testimoni p{
+  color: #A5A4A3;
+  font-weight: 900;
+  width: 300px;
+  margin: 60px auto;
+}
+
+.nama{
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  color: #222833;
+  margin-bottom: 10px;
+}
+
+.job{
+  color: #dadada;
+}
+/* Section Testimonial */
+
+/* Section Portofolio */
+.port img{
+  width: 25%;
+  float: left;
+  margin-bottom: 70px;
+}
+/* Section Portofolio */
+
+/* Section Footer */
+.footer{
+  /* font-family: 'Fraunces', serif; */
+  background-color: #90D4C5;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.logo-footer{
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2C7466;
+  padding-bottom: 40px;
+}
+
+.area-menu{
+  margin-bottom: 80px;
+}
+
+.menu-footer{
+  font-family: 'Barlow', sans-serif;
+  color: #2C7466;
+  font-weight: 600;
+  padding: 0 20px;
+}
+
+.menu-footer:hover{
+  color: #fff;
+}
+
+.social-footer{
+  font-family: 'Barlow', sans-serif;
+  color: #2C7466;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+.social-footer:hover{
+  color: #fff;
+}
+

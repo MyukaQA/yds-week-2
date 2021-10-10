@@ -189,13 +189,31 @@
   #menu-footer-contact{
     display: none;
   }
+  /* ===================== SECTION FOOTER ===================== */
+}
 
+@media screen and (max-width: 350px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 340px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 180%;
+    background-position: -143px 0px;
+    background-repeat:no-repeat;
+  }
+}
 
-
-
-
-
-
+@media screen and (max-width: 330px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 320px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 180%;
+    background-position: -133px 0px;
+    background-repeat:no-repeat;
+  }
 }
 
 

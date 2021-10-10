@@ -55,11 +55,11 @@
   }
   #img-header-responsive{
     width: 100%;
-    min-height: 350px;
+    min-height: 410px;
     max-height: 375px;
     background-image: url("../images/desktop/image-header.jpg");
-    background-size: 180%;
-    background-position: -150px 0px;
+    background-size: 200%;
+    background-position: -190px 0px;
     background-repeat:no-repeat;
   }
   /* ===================== HEADER ===================== */
@@ -192,26 +192,38 @@
   /* ===================== SECTION FOOTER ===================== */
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 365px) {
   #img-header-responsive{
     width: 100%;
-    min-height: 340px;
+    min-height: 400px;
     max-height: 375px;
     background-image: url("../images/desktop/image-header.jpg");
-    background-size: 180%;
-    background-position: -143px 0px;
+    background-size: 200%;
+    background-position: -185px 0px;
     background-repeat:no-repeat;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 350px) {
   #img-header-responsive{
     width: 100%;
-    min-height: 320px;
+    min-height: 380px;
     max-height: 375px;
     background-image: url("../images/desktop/image-header.jpg");
-    background-size: 180%;
-    background-position: -133px 0px;
+    background-size: 200%;
+    background-position: -180px 0px;
+    background-repeat:no-repeat;
+  }
+}
+
+@media screen and (max-width: 340px) and (max-width: 330px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 360px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 200%;
+    background-position: -167px 0px;
     background-repeat:no-repeat;
   }
 }

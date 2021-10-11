@@ -1,1 +1,261 @@
 /* akan berisi style utk versi responsif */
+@media screen and (max-width: 375px){
+  /* ===================== NAVBAR ===================== */
+  .navbar{
+    display: block;
+  }
+  .logo{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .nav-menu{
+    float: none;
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link{
+    color: #85888F;
+  }
+
+  .nav-menu.show{
+    display: block;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #fff;
+    /* position: absolute; */
+  }
+
+  .contact{
+    color: #222833;
+    background-color: #FDD700;
+  }
+
+  .hamburger{
+    display: block;
+    float: right;
+  }
+
+  .nav-item{
+    margin: 23px 0;
+  }
+  /* ===================== NAVBAR ===================== */
+  
+  /* ===================== NAVBAR ===================== */
+  #btn-scroll{
+    font-size: 40px;
+    bottom: 10px;
+    right: 20px;
+  }
+  /* ===================== NAVBAR ===================== */
+  
+  /* ===================== HEADER ===================== */
+  .header{
+    display: block;
+    justify-self: center;
+  }
+  
+  .title-header{
+    margin: 30px 0;
+  }
+  .title-header h1{
+    font-size: 2.5rem;
+    margin-top: -1000px;
+    /* padding-bottom: 100px; */
+    margin: 0;
+    /* padding: 100px 0; */
+  }
+
+  .icon-header{
+    margin-top: 20px;
+    font-size: 5rem;
+  }
+
+  .img-header{
+    display: none;
+    /* width: 100%; */
+    /* height: auto; */
+    /* background-size: 190%; */
+    /* background-position: 110px 0px; */
+    /* background-repeat:no-repeat; */
+    /* object-fit: cover;  */
+    /* transform: translateX(-40%); */
+  }
+  #img-header-responsive{
+    width: 100%;
+    min-height: 410px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 200%;
+    background-position: -190px 0px;
+    background-repeat:no-repeat;
+  }
+  /* ===================== HEADER ===================== */
+  
+  /* ===================== SECTION EGG ===================== */
+  .egg-img{
+    display: block;
+    width: 100%;
+  }
+  .egg-text{
+    display: inline-block;
+    text-align: center;
+    padding: 70px 50px;
+  }
+  
+  .egg-title{
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+  
+  .egg-desc{
+    font-size: 1rem;
+  }
+
+  .egg-link{
+    text-transform: uppercase;
+  }
+  /* ===================== SECTION EGG ===================== */
+  
+  /* ===================== SECTION CUP ===================== */
+  .cup-img{
+    display: block;
+    width: 100%;
+  }
+  .cup-text{
+    display: inline-block;
+    text-align: center;
+    padding: 70px 50px;
+  }
+  
+  .cup-title{
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+
+  .cup-desc{
+    font-size: 1rem;
+  }
+  
+  .cup-link{
+    text-transform: uppercase;
+  }
+  /* ===================== SECTION CUP ===================== */
+  
+  /* ===================== SECTION AREA ORANGE AND CERI ===================== */
+  .area{
+    width: 100%;
+    display: block;
+  }
+  
+  .area h2{
+    width: 100%;
+    /* position: absolute; */
+    padding-top: 380px;
+    /* position: relative; */
+    /* top: 350px; */
+    text-align: center;
+    margin-top: -20px;
+    font-size: 2.4rem;
+    
+  }
+  
+  .area p{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: -80px;
+    padding-left: 0;
+    /* margin: 0 10px; */
+    top: 420px;
+    font-weight: bold;
+    /* font-size: 1.1rem; */
+  }
+  
+  .ceri{
+    width: 100%;
+    height: 500px;
+  }
+  
+  .orange{
+    width: 100%;
+    height: 500px;
+  }
+
+  /* ===================== SECTION AREA ORANGE AND CERI ===================== */
+  
+  /* ===================== SECTION TESTIMONI ===================== */
+  .testimoni{
+    display: inline-block;
+    margin-top: 100px;
+  }
+  .testimoni p{
+    margin: 30px 0;
+    width: 100%;
+  }
+  .orang{
+    display: block;
+    text-align: center;
+    padding: 60px 40px;
+  }
+  /* ===================== SECTION TESTIMONI ===================== */
+  
+  /* ===================== SECTION PORT ===================== */
+  .port img{
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+  }
+  /* ===================== SECTION PORT ===================== */
+  
+  /* ===================== SECTION FOOTER ===================== */
+  .footer{
+    width: 100%;
+    display: inline-block;
+    padding: 80px 0;
+  }
+  #menu-footer-contact{
+    display: none;
+  }
+  /* ===================== SECTION FOOTER ===================== */
+}
+
+@media screen and (max-width: 365px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 400px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 200%;
+    background-position: -185px 0px;
+    background-repeat:no-repeat;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 380px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 200%;
+    background-position: -180px 0px;
+    background-repeat:no-repeat;
+  }
+}
+
+@media screen and (max-width: 340px) and (max-width: 330px) {
+  #img-header-responsive{
+    width: 100%;
+    min-height: 360px;
+    max-height: 375px;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 200%;
+    background-position: -167px 0px;
+    background-repeat:no-repeat;
+  }
+}
+

@@ -12,11 +12,6 @@ a{
   text-decoration: none;
 }
 
-.header-img{
-  /* position: absolute; */
-  /* width: 100%; */
-}
-
 .navbar {
   background-color: #3EBEFF;
   padding: 3px;
@@ -47,6 +42,19 @@ a{
   font-size: 1.6rem;
   font-weight: 400;
   color: #fff;
+}
+
+.hamburger{
+  display: none;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.hamburger:focus{
+  outline: none;
 }
 
 .contact{

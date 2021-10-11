@@ -5,8 +5,8 @@
     display: block;
   }
   .logo{
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 50%;
     font-size: 1.5rem;
     padding: 0;
   }
@@ -16,6 +16,29 @@
     width: 100%;
     text-align: center;
   }
+
+  .nav-link{
+    color: #85888F;
+  }
+
+  .nav-menu.show{
+    display: block;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #fff;
+    /* position: absolute; */
+  }
+
+  .contact{
+    color: #222833;
+    background-color: #FDD700;
+  }
+
+  .hamburger{
+    display: block;
+    float: right;
+  }
+
   .nav-item{
     margin: 23px 0;
   }

@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () =>{
 });
 
 var height_body = document.body.scrollHeight;
-var percent = 20;
+var percent = 25;
 var btn_scroll = document.getElementById('btn-scroll');
 
 window.onscroll = function(){scrollFunction()};
